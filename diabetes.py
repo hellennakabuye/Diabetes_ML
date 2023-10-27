@@ -30,7 +30,7 @@ def main():
     # giving title
     st.title('Diabetes Prediction App')
     with st.sidebar:
-        st.sidebar.title('Welcome to *diabetes_ai*')
+        st.sidebar.title(':blue[Welcome to ***diabetes_ai***]')
         st.header("About Diabetes")
         st.write("Types: Type 1, Type 2 & Gestational Diabetes")
         st.write("Symptoms: Chronic thirst, frequent urinating, sudden weight loss, irritability, blurry vision & more")
@@ -59,7 +59,7 @@ def main():
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
 
     st.success(diagnosis)
-    st.header('Thank you for using ***diabetes_ai***')
+    st.header(':blue[Thank you for using ***diabetes_ai***]')
 
 
 if __name__ == '__main__':
